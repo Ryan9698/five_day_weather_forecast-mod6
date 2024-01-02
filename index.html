@@ -16,14 +16,14 @@
     <div class="row">
       <!-- Form Column -->
       <div class="formStyle col-4">
-        <form class="g-3">
+        <form class="g-3" id="weatherForm">
           <h5>Search for a City</h5>
           <div class="mb-3 col-6">
-            <label for="inputPassword2" class="visually-hidden">Password</label>
+            <label for="cityInput" class="visually-hidden">City</label>
             <input
-              type="password"
+              type="text"
               class="form-control"
-              id="inputPassword2"
+              id="cityInput"
               placeholder="City"
             />
           </div>
@@ -35,7 +35,7 @@
         </form>
       </div>
       
-      <div class="border rounded col-5">
+      <div class="border rounded col-5" id="weatherInfo">
         <h5>City:</h5>
         <h6>Temp:</h6>
         <h6>Wind:</h6>
@@ -43,6 +43,6 @@
       </div>
     </div>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
