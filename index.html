@@ -11,38 +11,103 @@
     <title>Your Five Day Weather Forecast</title>
   </head>
   <body>
-    <h1 class="bg-info text-center">Weather Dashboard</h1>
+    <h1 class="bg-info text-center p-3 text-white">Weather Dashboard</h1>
 
-    <div class="row">
-      <!-- Form Column -->
-      <div class="formStyle col-4">
-        <form class="g-3" id="weatherForm">
-          <h5>Search for a City</h5>
-          <div class="mb-3 col-6">
-            <label for="cityInput" class="visually-hidden">City</label>
-            <input
-              type="text"
-              class="form-control"
-              id="cityInput"
-              placeholder="City"
-            />
-          </div>
-          <div>
-            <button type="submit" class="btn btn-primary">
-              Search Weather
-            </button>
-          </div>
-        </form>
+    <div class="container-fluid my-5">
+      <div class="row">
+        <!-- Form Column -->
+        <div class="formStyle col-lg-4 col-md-4 col-sm-12 mb-3">
+          <form class="g-3" id="weatherForm">
+            <h5>Search for a City</h5>
+            <div class="mb-3">
+              <label for="cityInput" class="form-label visually-hidden"
+                >City</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="cityInput"
+                placeholder="City"
+              />
+            </div>
+            <div>
+              <button type="submit" class="btn btn-info">Search Weather</button>
+            </div>
+          </form>
+          <div id="savedSearches"></div>
+        </div>
+
+        <div
+          class="currentWeather border rounded col-lg-8 col-md-8 col-sm-12 p-3"
+          id="weatherInfo"
+        >
+          Check your city's weather!
+        </div>
       </div>
-      
-      <div class="border rounded col-5" id="weatherInfo">
-        <h5>City:</h5>
-        <h6>Temp:</h6>
-        <h6>Wind:</h6>
-        <h6>Humidity:</h6>
+
+      <div class="row mt-4 g-3" id="forecast">
+        <!-- Forecast Cards -->
+        <div class="col-2 forecast-card border rounded p-3">
+          <h5>Day 1</h5>
+          <p>Date:</p>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+          <img
+            src="http://openweathermap.org/img/wn/01d.png"
+            alt="Weather Icon"
+          />
+        </div>
+
+        <div class="col-2 forecast-card border rounded p-3">
+          <h5>Day 2</h5>
+          <p>Date:</p>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+          <img
+            src="http://openweathermap.org/img/wn/02d.png"
+            alt="Weather Icon"
+          />
+        </div>
+
+        <div class="col-2 forecast-card border rounded p-3">
+          <h5>Day 3</h5>
+          <p>Date:</p>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+          <img
+            src="http://openweathermap.org/img/wn/03d.png"
+            alt="Weather Icon"
+          />
+        </div>
+
+        <div class="col-2 forecast-card border rounded p-3">
+          <h5>Day 4</h5>
+          <p>Date:</p>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+          <img
+            src="http://openweathermap.org/img/wn/04d.png"
+            alt="Weather Icon"
+          />
+        </div>
+
+        <div class="col-2 forecast-card border rounded p-3">
+          <h5>Day 5</h5>
+          <p>Date:</p>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+          <img
+            src="http://openweathermap.org/img/wn/09d.png"
+            alt="Weather Icon"
+          />
+        </div>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
