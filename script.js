@@ -39,7 +39,7 @@ function displayFiveDayForecast(fiveDayForecast) {
         <p>Wind: ${entry.wind.speed} mph</p>
         <p>Humidity: ${entry.main.humidity}%</p>
         <p>Weather: ${weather.main}</p>
-        <img src="http://openweathermap.org/img/wn/${
+        <img src="https://openweathermap.org/img/wn/${
           weather.icon
         }.png" alt="Weather Icon">
       </div>
