@@ -10,7 +10,7 @@ function displayCurrentWeather(data, city) {
   const feelsLikeFahrenheit = convertKelvinToFahrenheit(data.main.feels_like);
 
   weatherInfo.innerHTML = `
-    <h2>${city}<img src="http://openweathermap.org/img/wn/${
+    <h2>${city}<img src="https://openweathermap.org/img/wn/${
     weather.icon
   }.png" alt="Weather Icon"></h2>
     <p>Date: ${getCurrentDate()}</p>
