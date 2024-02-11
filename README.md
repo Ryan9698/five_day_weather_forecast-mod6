@@ -13,7 +13,7 @@
 
 ## Description
 
-This web app is designed to notify the user of current weather conditions in the city of their choice. It's meant to be an easily accessible app for determining the upcoming weather. Working through this app, I learned a lot about basic API calls and the data that is returned and how to modify that data to render on a webpage. I decided to add a couple of other features such as the automatic conversion of Kelvin (API return) to Fahrenheit and displaying "Feels like" to make it a more in line with authentic weather applications. Icons are displayed based on weather conditions so you can quickly tell what kind of weather is in the area at a glance.
+This web app is designed to notify the user of current weather conditions in the city of their choice. It's meant to be an easily accessible app for determining the upcoming weather. Working through this app, I learned a lot about basic API calls and the data that is returned and how to modify that data to render on a webpage. I learned more about how to style dynamic elements such as the containers when they're replaced after the API calls the data. This app also helped me to better understand how to utilize the Dev Tools to collect the data I need from APIs to suit the purpose of my application. I decided to add a couple of other features such as the automatic conversion of Kelvin (API return) to Fahrenheit and displaying "Feels like" to make it more in line with more authentic weather applications. Icons are displayed based on weather conditions so you can quickly tell what kind of weather is in the area at a glance.
 
 ## Installation
 
@@ -21,7 +21,7 @@ N/A
 
 ## Usage
 
-Using the project is easy, type in the city you wish to see the current weather for and click the "Search Weather" button. The app will display the current weather as well as a 5 day weather forecast for the cityof your choice. A button with the city will generate allowing you to refer back to it. The information is saved to local storage. Searches are configured for US cities.
+Using the project is easy, type in the city you wish to see the current weather for and click the "Search Weather" button. The app will display the current weather as well as a 5 day weather forecast for the city of your choice. A button with the city will generate allowing you to quickly call the data back. The information is saved to local storage. Searches are configured for US cities.
 
 ## Contributors
 
